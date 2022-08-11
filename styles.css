@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
 .navbar-brand{
     display: flex;
     align-items: center;
@@ -14,28 +28,26 @@
     margin-right: 0.5rem;
     border-radius: 50%;
 }
+
 .home{
-    background-color: #666;
-    height:65vh;
+    background-color: #444;
+    
 }
 .banner{
-    height:50vh;
-    width: 50vw;
     background-color: #aaa;
+    height: 15rem;
 }
 .text-card{
-    width:30vh;
-    height:50vh;
     background-color: #868686;
 }
 .acerca_de{
-    height:85vh;
+
     background-color: #f6f6f6;
 }
 .foto{
     height: 7rem;
     width:7rem;
-    margin-top: -2rem;
+    margin-top: -1rem;
     display: flex;
     align-items: center;
     justify-content: center;
