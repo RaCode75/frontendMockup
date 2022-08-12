@@ -35,7 +35,7 @@
 }
 .banner{
     background-color: #aaa;
-    height: 15rem;
+    height: 18rem;
 }
 .text-card{
     background-color: #868686;
@@ -54,4 +54,7 @@
     background-color: #333;
     color:#fff;
     border-radius: 50%;
+}
+.proyectos {
+    background-color: #f6f6f6;
 }
