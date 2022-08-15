@@ -40,10 +40,6 @@
 .text-card{
     background-color: #868686;
 }
-.acerca_de{
-
-    background-color: #f6f6f6;
-}
 .foto{
     height: 7rem;
     width:7rem;
@@ -55,6 +51,6 @@
     color:#fff;
     border-radius: 50%;
 }
-.proyectos .skills{
+.bg-claro{
     background-color: #f6f6f6;
 }

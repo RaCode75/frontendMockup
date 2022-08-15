@@ -26,29 +26,25 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link" href="#acerca">Acerca de</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Educaci&oacuten</a>
+                        <a class="nav-link" href="#educacion">Educaci&oacuten</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Experiencia
+                      <li class="nav-item">
+                        <a class="nav-link  " href="#skills">
+                          Skills
                         </a>
-                          <ul class="dropdown-menu dropdown-menu-dark bg-dark">
-                            <li><a class="dropdown-item  nav-link " href="#">Skills</a></li>
-                            <li><a class="dropdown-item nav-link " href="#">Proyectos</a></li>
-                          </ul>
                         </li>
                         <li>
-
+                          <!--Login-->
                           <div class="dropstart">
                             <button type="button" class="btn btn-dark " data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-offset="-20,0">
                               Login
                             </button>
                             <form class="dropdown-menu dropdown-menu-dark bg-dark p-4">
                               <div class="mb-3">
-                                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
                                 <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
                               </div>
                               <div class="mb-3">
@@ -59,14 +55,14 @@
                                 <div class="form-check">
                                   <input type="checkbox" class="form-check-input" id="dropdownCheck2">
                                   <label class="form-check-label" for="dropdownCheck2">
-                                    Remember me
+                                    Recordarme
                                   </label>
                                 </div>
                               </div>
-                              <button type="submit" class="btn btn-dark">Sign in</button>
+                              <button type="submit" class="btn btn-dark">Login</button>
                             </form>
                           </div>
-
+                          <!--fin login-->
                         </li>
                       </ul>
                       
@@ -94,10 +90,10 @@
         </div>
       </section>
       <!--Acerca de-->
-      <section class="acerca_de container-fluid ">
+      <section class="acerca_de bg-claro container-fluid ">
         <div class="row  align-items-center justify-content-start">
           <div class="col-lg-3 col-md-3 col-12 text-center">
-            <div class="foto mx-auto"><span>Foto</span></div>
+            <a id="acerca"><div class="foto mx-auto"><span>Foto</span></div></a>
             
             <span>Lorem ipsum dolor sit amet, consectetur </span>
           
@@ -116,11 +112,25 @@
         </div>
         
       </section>
+      <!--Educacion-->
+        <section class="educacion  bg-claro container-fluid">
+              <a id="educacion"><h2>Educaci&oacuten</h2></a>
+              <div class="col-12 text-left p-3">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>In porta placerat enim vel laoreet. Vivamus laoreet erat vitae velit gravida,
+                  non sagittis lacus laoreet.</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>In porta placerat enim vel laoreet. Vivamus laoreet erat vitae velit gravida,
+                  non sagittis lacus laoreet.</li>
+                </ul>
+              </div>
+        </section>
       <!--Skills-->
-      <section class="skills container-fluid p-3">
-        <h2 class="mb-3">Skills<small class="text-muted"> Lorem ipsum dolor sit amet, 
+      <section class="skills bg-claro container-fluid p-3">
+        <a id="skills"><h2 class="mb-3">Skills<small class="text-muted"> Lorem ipsum dolor sit amet, 
           consectetur adipiscing elit.
-          </small></h2>
+          </small></h2></a>
           <div class="row justify-content-around">
 
             <div class="skills p-3 col-3 col-md-2 col-lg-2 m-2">
@@ -173,7 +183,7 @@
         </div>
       </section>
       <!--Proyectos-->
-      <section class="proyectos container-fluid">
+      <section class="proyectos bg-claro container-fluid">
           <hr>
           <h2>Proyectos</h2>
         <div class="row justify-content-around">
